@@ -1,4 +1,4 @@
-import { IuserResponse, Iuser } from "interfaces/user";
+import { IuserResponse, Iuser } from "interfaces/user"
 
 export default class WebService {
   static async createUser(user: Iuser): Promise<IuserResponse> {
