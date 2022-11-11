@@ -23,11 +23,11 @@ export default function Users() {
       <article>
         <h2>Usuários</h2>
         <section>
-          <ul>
+          {/* <ul>
             {users.map((user) => (
-              <Item key={user.id} item={user} />
+              // <Item key={user.id} item={user} />
             ))}
-          </ul>
+          </ul> */}
         </section>
 
         <section>

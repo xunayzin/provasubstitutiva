@@ -1,12 +1,18 @@
+import styled from "styled-components";
 
-import styled, { css } from "styled-components";
-export const Home = styled.section`
-	${({  }) => css`
-		background-color: #D3D3D3;
-		min-width: 100vw;
-		min-height: 100vh;
-		color:	#191970;
-		display: flex;
-		justify-content: space-between;
-	`}
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 `;
+export const Table = styled.table`
+ width:500px;
+ text-align: center;
+ margin: 0 auto;
+ th,td {
+    border: 1px solid #000;
+ }
+ `;
